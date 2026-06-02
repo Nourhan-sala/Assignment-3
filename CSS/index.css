@@ -148,11 +148,29 @@ img[alt="..."]{
     animation:noura-2 4s infinite;
 } */
 
-.taxi1{
+img{
     width: 200px;
     transform: rotateY(180deg);
-    animation: taxi 5s infinite;
+    border-radius: 50%;
     position: relative;
+     display: block;
+    margin-bottom: 10px;
+}
+
+.cloud1{
+    animation: taxi 5s infinite;
+}
+.cloud2{
+    animation: taxi 6s infinite;
+}
+.cloud3{
+    animation: taxi 8s infinite;
+}
+.cloud4{
+    animation: taxi 9s infinite;
+}
+.cloud5{
+    animation: taxi 11s infinite;
 }
 
 
@@ -181,3 +199,9 @@ img[alt="..."]{
         transform: rotateY(360deg);
     }
 }
+
+body{
+    background-color: blue;
+}
+
+
