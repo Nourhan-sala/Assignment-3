@@ -96,7 +96,7 @@ img[alt="..."]{
 
 /*End selected by attributes */
 
-.test{
+/* .test{
     width: 80%;
     height: 200px;
     background-color:#09c ;
@@ -105,25 +105,47 @@ img[alt="..."]{
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
-
-@keyframes noura{
+*/
+@keyframes noura-2{
     0%{
-        background-color: red;
+      background-image: url(../images/avatar-2-CwUcGkzI.jpg);
+      background-size: cover;
+      background-position: center;
     }
 
     25%{
-        background-color: blueviolet;
+   background-image: url(../images/anti-instagram-Bn9b8TEi.jpg);
+    background-size: cover;
+    background-position: center;
+
     }
 
     33.33%{
-        background-color: teal;
+        background-image: url(../images/avatar-8.jpg);
+              background-size: cover;
+              background-position: center;
+
     }
 
     50%{
-        background-color: tan;
+      background-image:url(../images/avatar-2.jpg);
+            background-size: cover;
+            background-position: center;
+
     }
 
     100%{
-        background-color: 100%;
+       background-image: url(../images/user-engagement-2-DFdiyblT.jpg);
+         background-size: cover;
+         background-position: center;
     }
+} 
+
+
+.test-2{
+    height: 100vh;
+    /* background-color: #09c; */
+    animation:noura-2 4s infinite;
 }
+
+
