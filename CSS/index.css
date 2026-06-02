@@ -71,3 +71,29 @@ img{
 } */
 
 /* css nested */
+
+
+/*Start selected by attributes */
+
+
+img{
+    width: 200px;
+}
+
+
+
+img[src="./images/avatar-2-CwUcGkzI.jpg"]{
+    border-radius: 50%;
+}
+
+
+img[alt="..."]{
+    border-top: 1rem solid indianred;
+    border-bottom: 1rem solid gray;
+    border-left: 1rem solid brown;
+    border-right: 1rem solid tan;
+}
+
+
+
+/*End selected by attributes */
