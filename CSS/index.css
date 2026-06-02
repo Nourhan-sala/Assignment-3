@@ -30,22 +30,3 @@ img{
 
 /* End global css */
 
-/* Strat nav style */
-nav{
-    background-color: #F5F3FF;
-   
-}
-
-nav .container{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    padding-block: 18px;
-}
-
-nav .nav-links ul{
-    display: flex;
-    gap: 20px;
-}
-
-/* End nav style */
