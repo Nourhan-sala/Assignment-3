@@ -30,3 +30,44 @@ img{
 
 /* End global css */
 
+
+/* .test h1 ,
+.test h2{
+    color: aqua;
+} */
+
+
+/*! css nested  */
+/* .test{
+    h1 , h2{
+        color: aqua;
+    }
+    h2 span{
+        color: blue;
+    }
+} */
+/*! css nested  */
+/* 
+.test{
+    h2 span:hover{
+        color: black;
+    }
+} */
+
+/* 
+
+.test h2 span{
+    color:red ;
+} */
+
+
+/* css nested  */
+/* .test{
+    h2{
+        span{
+            color: brown;
+        }
+    }
+} */
+
+/* css nested */
