@@ -106,7 +106,7 @@ img[alt="..."]{
     animation-iteration-count: infinite;
 }
 */
-@keyframes noura-2{
+/* @keyframes noura-2{
     0%{
       background-image: url(../images/avatar-2-CwUcGkzI.jpg);
       background-size: cover;
@@ -144,8 +144,40 @@ img[alt="..."]{
 
 .test-2{
     height: 100vh;
-    /* background-color: #09c; */
+    background-color: #09c;
     animation:noura-2 4s infinite;
+} */
+
+.taxi1{
+    width: 200px;
+    transform: rotateY(180deg);
+    animation: taxi 5s infinite;
+    position: relative;
 }
 
 
+@keyframes taxi{
+    0%{
+        top: 0;
+        left: 0;
+    }
+
+    50%{
+        top: 0;
+        left: 800px;
+        transform: rotateY(180deg);
+
+    }
+
+    51%{
+        top: 0;
+        left: 800px;
+          transform: rotateY(360deg);
+    }
+    
+    100%{
+        top: 0;
+        left:0 ;
+        transform: rotateY(360deg);
+    }
+}
